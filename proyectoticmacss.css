@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("fondo.png");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+}
+.nombre {
+    font-family: 'Mukta', sans-serif; 48px;
+    background: linear-gradient(90deg, #CB388A 0%, #824C8F 83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nombre2 {
+    font-family: 'Mukta', sans-serif; 48px;
+    background: linear-gradient(90deg, #e954e2  0%, #48175c 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#navegador {
+    line-height: 4rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: .5px solid #ffffff52;
+    border-width: 80%;
+    margin-bottom: 1rem;
+}
+#navegador ul {
+    list-style: none;
+}
+
+#navegador ul li {
+    margin: 0px 1rem;
+    
+}
+
+.flex {
+    display: flex;
+}
+.derecha {
+    display: none;
+
+}
+.s-around {
+    justify-content: space-around;
+}
+.bg-color {
+    background-color:  #F1CFEA;
+}
+.blanco {
+    color: #fff;
+}
+
+/*Parte central*/
+.home-left,
+.home-right {
+    width: 48%;
+    padding: 2rem;
+}
+.home-right {
+    position: inherit;
+}
+
+.home-right img {
+    position: fixed;
+    size-adjust: 50%;
+    box-sizing: content-box;
+    height: fit-content;
+    weight: fit-content;
+}
+
+.home-left h1 {
+    font-size: 2.5rem;
+}
+
+.home-left
+h4 {
+    color: hsl(240deg 8% 43%);
+    margin: 1rem 0;
+    margin-left: 3px;
+    font-size: 1.2rem;
+}
+
+p {
+    align-content: stretch;
+}
+
+.imagen {
+    padding: 0.5rem;
+    position: relative;
+    border-radius: 100%;
+}
+/* Datos personales*/ 
+.about-left,
+.about-right {
+    width: auto;
+}
+
+.about-left img {
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.about-content{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.about-content h1{
+    font-family: 'Mukta', sans-serif; 48px;
+    background: linear-gradient(90deg, #e954e2  0%, #48175c 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+.about-content p {
+    width: auto;
+}
+
+.portfolio h1 {
+    font-family: 'Mukta', sans-serif;
+    background: linear-gradient(90deg, #e954e2  0%, #48175c 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+
+}
+.btn:hover {
+    background-color:#e6b9e3;
+}
+
+.live {
+    background-color: transparent;
+}
+
+#experiencia{
+    padding-top: 0.5rem;
+    box-sizing: content-box;
+}
+#experiencia h1{
+    font-family: 'Mukta', sans-serif; 48px;
+    background: linear-gradient(90deg, #e954e2  0%, #48175c 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+#experiencia ul{
+    margin-top: 0.5 rem;
+    list-style: none;
+}
+#experiencia ul li {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    
+}
+
+/* Pie de pagina*/
+#navfoot {
+    line-height: 4rem;
+    position: sticky;
+    top: 10%;
+    left: 0;
+    z-index: 100;
+    border-bottom: .5px solid #ffffff52;
+    border-width: 80%;
+    margin-bottom: 1rem;
+    display: flex;
+}
+#navfoot ul {
+    list-style: none;
+}
+
+#navfoot ul li {
+    margin: 0px 1rem;
+    
+}
+
+/*final*/
